@@ -14,3 +14,12 @@ The algorithm uses the following natural selection mechanisms:
 The Roulette Wheel method involves selecting the best individuals. The idea is taken from the roulette wheel with which we are all familiar. Each individual has its own area of the circle segment proportional to the value of the objective function. An individual with the best objective function will have the largest area, and similarly an individual with the weakest objective function will have the smallest area, and therefore the smallest chance of being selected.
 <br/>
 ![](https://github.com/MichalStachowicz/genetic-algorithm/blob/main/Images/MetodaKolaRuletki.png)
+<br/>
+My engineering work uses a genetic algorithm to find new structures with the lowest energies. The program is written in the Python language. To generate random structures he uses the PyXtal library and as an energy calculator Siesta calculator. Using the ASE library, he implements the genetic algorithm. PyXtal is an open sorce library that generates random crystal structures using the ab-inito method. 
+
+![](https://github.com/MichalStachowicz/genetic-algorithm/blob/main/Images/Pyxtal.png)
+<br/>
+The Siesta Calculator is both a method and an implementation of a computer program for performing efficient electron structure calculations and ab initio molecular dynamics simulations of molecules and solids. The efficiency of the SIESTA code is due to the use of a basis set of strictly localized atomic orbitals. A very important feature of the code is that its accuracy and cost can be tuned over a wide range, from very fast exploratory calculations to highly accurate simulations that match the quality of other approaches, such as plane-wave methods.
+
+![](https://github.com/MichalStachowicz/genetic-algorithm/blob/main/Images/Siesta.jpg)
+
