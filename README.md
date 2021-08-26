@@ -13,4 +13,4 @@ The algorithm uses the following natural selection mechanisms:
 ## Choice by Roulette Wheel Method
 The Roulette Wheel method involves selecting the best individuals. The idea is taken from the roulette wheel with which we are all familiar. Each individual has its own area of the circle segment proportional to the value of the objective function. An individual with the best objective function will have the largest area, and similarly an individual with the weakest objective function will have the smallest area, and therefore the smallest chance of being selected.
 <br/>
-
+![](https://github.com/MichalStachowicz/genetic-algorithm/blob/main/Images/MetodaKolaRuletki.png)
