@@ -6,7 +6,7 @@ We assign the genetic algorithm to the thick of heuristic algorithms. It is used
 <br/>
 The algorithm uses the following natural selection mechanisms:
 1. Mutation - involves randomly changing one gene in a chromosome. A mutation increases the diversity of genetic material. The probability of a mutation occurring is declared at the start of the program. Its value should not be too high, because too much randomness will appear in the algorithm. In my work, mutation is implemented by a minimal change in atomic positions. In my work the mutation method will be performed using the Roulette Wheel Method, which is described below. 
-2. Crossover - generates a new population of individuals. It involves cutting the chromosomes of the parents at any point and crossing them over to produce two offspring. In my work, I implement the crossover method by swapping places of random atoms in a structure.
+2. Crossover - generates a new population of individuals. It involves cutting the chromosomes of the parents at any point and crossing them over to produce two offspring. In my work, I implement the crossover method by swapping places of 2 random atoms in 2 randomly selected structures.
 3. Selection - consists in choosing the strongest individuals (those with the best objective function) and letting them pass to the next generation - the next iteration of the program. In my work, selection is applied to a declared percentage of the best individuals in a population.
 <br/>
 
